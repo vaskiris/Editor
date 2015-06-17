@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.effect.*?>
 <?import javafx.scene.image.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
@@ -28,7 +29,9 @@
           </Menu>
         </menus>
       </MenuBar>
-      <ImageView fx:id="ImageDisplay" fitHeight="215.0" fitWidth="200.0" layoutX="411.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0" />
-      <Button fx:id="openPhoto" layoutX="23.0" layoutY="38.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="69.0" text="Open" />
+      <ImageView fx:id="ImageDisplay" fitHeight="215.0" fitWidth="184.0" layoutX="411.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0" />
+      <Button fx:id="openPhoto" layoutX="92.0" layoutY="251.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="130.0" text="Open Image" />
+      <TextArea fx:id="text" layoutX="-1.0" layoutY="25.0" prefHeight="215.0" prefWidth="418.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="25.0" />
+      <Button fx:id="upload" layoutX="241.0" layoutY="251.0" mnemonicParsing="false" onAction="#uploadButtonAction" prefHeight="25.0" prefWidth="130.0" text="Upload" />
     </children>
 </AnchorPane>
